@@ -1,12 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 function ProfessionalScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Professional Profile</Text>
       <Text style={styles.description}>
-        Welcome to the Professional section. Here you'll find detailed information about professional achievements, experiences, and expertise.
+        Welcome to the Professional section.Hi Here you'll find detailed
+        information about professional achievements, experiences, and expertise.
       </Text>
     </View>
   );
